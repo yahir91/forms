@@ -1,0 +1,33 @@
+#main {
+   
+   position: absolute;
+   left: 45%;
+
+}
+
+#check-box input{
+    display: block;
+}
+
+#radio-buttons input{
+    display: block;
+}
+
+#name-tag label{
+    display: block;
+    margin: 10px;
+}
+
+input {
+    width: 380px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#survey-form {
+    background-color: #1b1b32;
+    color: white;
+    width: 400px;
+}
+

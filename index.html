@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html>
+    <link href="style.css" rel="stylesheet">
+
 <title  id="title">
+
     <h1>Forms</h1>
     <p id="description">We are creating a form</p>
+
 </title>
 
+<div id="main">
+
 <form id="survey-form" action="">
-<input type="text" id="name">
-<input type="email" id="email">
-<input type="number" id="number">
+
+    <div id="name-tag">
+        <label for="name">name</label>
+        <input type="text" id="name" placeholder="Name">
+        
+     </div>
+
+     <div id="name-tag">
+         <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email">
+    </div>
+
+    <div id="name-tag">
+        <label for="number">age</label>
+        <input type="number" id="number" min="1" max="10" placeholder="Number">
+    </div>
+
+ <div id="name-tag"> 
+    <label for="dropdown">Which option best describes your current role?</label>
+    <select id="dropdown">
+        <option value="option1">option 1</option>
+        <option value="option2">option 2</option>
+        <option value="option3">option 3</option>
+        <option value="option4">option 4</option>
+    </select>
+
+ </div>
+
+
+
+<div id="radio-buttons"> 
+    
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+
+    <input type="radio" name="gender" value="other">
+  
+   
+    
+</div>
+
+
+
+
+<div id="check-box">
+
+    <input type="checkbox" name="Front end developer" value="front end developer">
+
+    <input type="checkbox" name="back end developer" value="back end developer">
+
+    <input type="checkbox" name="data visualization" value="data visualization">
+
+    <input type="checkbox" name="challenge" value="challenge">
+</div>
+
+
+<div>
+    <textarea ></textarea>
+</div>
+
+<div>
+    <button id="submit">Submit </button>
+</div>
+
+
 </form>
 
 
 
 
 
-
+</div>
 
 
 

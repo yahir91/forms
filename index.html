@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <link href="style.css" rel="stylesheet">
+    </head>
 
-<title  id="title">
-
-    <h1>Forms</h1>
-    <p id="description">We are creating a form</p>
-
-</title>
+<title  id="title">Forms</title>
 
 <div id="main">
+<div id="header">
+  <h1>Forms</h1>
+  <p id="description">We are creating a form</p>
+</div>
 
 <form id="survey-form" action="">
 
@@ -43,11 +44,19 @@
 
 
 <div id="radio-buttons"> 
-    
-        <input type="radio" name="gender" value="male"> 
-        <input type="radio" name="gender" value="female"> 
+    <p>Would you recommend freecodecamp to a friend</p>
 
-    <input type="radio" name="gender" value="other">
+        <input id="radio1" type="radio" name="gender" value="male"> 
+        <label for="radio1">Definitely</label>
+        <br>
+
+        <input id="radio2" type="radio" name="gender" value="female"> 
+        <label for="radio2">Maybe</label>
+        <br>
+
+    <input id="radio3" type="radio" name="gender" value="other">
+    <label for="radio3">Not Sure</label>
+    <br>
   
    
     
@@ -57,14 +66,18 @@
 
 
 <div id="check-box">
-
-    <input type="checkbox" name="Front end developer" value="front end developer">
-
-    <input type="checkbox" name="back end developer" value="back end developer">
-
-    <input type="checkbox" name="data visualization" value="data visualization">
-
-    <input type="checkbox" name="challenge" value="challenge">
+<p>What would you like to improve? (check all data aplly)</p>
+    <input id="checkbox1" type="checkbox" name="Front end developer" value="front end developer">
+    <label for="checkbox1">Front end developer</label>
+    <br>
+    <input id="checkbox2" type="checkbox" name="back end developer" value="back end developer">
+    <label for="checkbox2">back end developer</label>
+    <br>
+    <input id="checkbox3" type="checkbox" name="data visualization" value="data visualization">
+    <label for="checkbox3">data visualization</label>
+    <br>
+    <input id="checkbox4" type="checkbox" name="challenge" value="challenge">
+    <label for="checkbox4">Challenge</label>
 </div>
 
 
@@ -78,9 +91,6 @@
 
 
 </form>
-
-
-
 
 
 </div>

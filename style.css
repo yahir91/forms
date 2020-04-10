@@ -2,15 +2,18 @@
    
    position: absolute;
    left: 45%;
+}
 
+#header {
+    text-align: center;
 }
 
 #check-box input{
-    display: block;
+    display: inline-block;
 }
 
 #radio-buttons input{
-    display: block;
+    display: inline-block;
 }
 
 #name-tag label{
@@ -18,12 +21,21 @@
     margin: 10px;
 }
 
-input {
+#name-tag input {
     width: 380px;
     height: 30px;
     border-radius: 10px;
     margin-left: 10px;
 }
+
+#dropdown {
+    width: 380px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
 
 #survey-form {
     background-color: #1b1b32;
@@ -31,3 +43,16 @@ input {
     width: 400px;
 }
 
+button {
+    width: 380px;
+    height: 40px; 
+    background-color: #37af65;
+    margin: 10px;
+    color: white;
+}
+
+textarea {
+    width: 380px;
+    height: 50px;
+    margin:5px;
+}
